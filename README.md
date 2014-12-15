@@ -90,8 +90,9 @@ Currently, at least:
 
 The f tool is not smart enough to auto-detect what kind of file it's reading. Perhaps it could be, but for now it requires that the configuration file name gives it a clue of some sort. For example:
 
-   myrouter1.junos.set == Junos
-   myswitch1.cisco.log == Cisco
+- myrouter1.junos.set == Junos
+- myswitch1.cisco.log == Cisco
+- myfirewall.screenos == Netscreen
 
 These can be edited to your convenience, but it's how they are right now.
 
